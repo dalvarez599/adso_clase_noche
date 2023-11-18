@@ -10,7 +10,7 @@ final appRouter = GoRouter(
       path:'/home',
       name: 'home_view',
       builder: (context, state) => const HomeView(),
-    ),
+    ), //hh
 
     GoRoute(
       path:'/primary',
